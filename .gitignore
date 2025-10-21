@@ -1,0 +1,61 @@
+## Node
+node_modules/
+
+## Vite / build outputs
+dist/
+build/
+
+## Cache
+.vite/
+.cache/
+
+## Environment files
+.env
+.env.*.local
+.env.local
+
+## Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+## Lockfiles (keep one if you use it — remove the others if needed)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+## Coverage
+coverage/
+
+## Production
+/.env.production
+
+## Optional: local debug files
+.history/
+.serverless/
+
+## Static assets cache
+/static/*.cache
+
+# Vim swap
+*.swp
+
+# Mac resource forks
+._*
+
+# Misc
+.DS_Store?
+*.pem
+*.key
